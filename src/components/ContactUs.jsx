@@ -9,7 +9,7 @@ function Offers() {
         <div className="grid md:grid-cols-2 gap-4 md:gap-8">
           <div className="grid gap-4 md:gap-6 md:grid-cols-2">
             {/*  */}
-            <a href='#' className="rounded bg-white space-y-4 shadow-2xl hover:border-zinc-300 hover:rounded-xl font-light shadow-gray-200 border border-zinc-100 p-4 py-8 cursor-pointer transition-all duration-200 ease-in-out">
+            <a href='#' className="bg-white space-y-4 shadow-2xl hover:border-zinc-300 rounded-xl font-light shadow-gray-200 border border-zinc-100 p-4 py-8 cursor-pointer transition-all duration-200 ease-in-out">
               <div className='flex items-center space-x-1.5'>
                 <div className='flex'><box-icon name='pin' type='solid' ></box-icon></div>
                 <div className='text-xl font-bold'>Address</div>
@@ -19,7 +19,7 @@ function Offers() {
               </div>
             </a>
             {/*  */}
-            <a href='#' className="rounded bg-white space-y-4 shadow-2xl hover:border-zinc-300 hover:rounded-xl font-light shadow-gray-200 border border-zinc-100 p-4 py-8 cursor-pointer transition-all duration-200 ease-in-out">
+            <a href='#' className="bg-white space-y-4 shadow-2xl hover:border-zinc-300 rounded-xl font-light shadow-gray-200 border border-zinc-100 p-4 py-8 cursor-pointer transition-all duration-200 ease-in-out">
               <div className='flex items-center space-x-1.5'>
                 <div className='flex'><box-icon name='phone' type='solid' ></box-icon></div>
                 <div className='text-xl font-bold'>Phone number</div>
@@ -30,7 +30,7 @@ function Offers() {
               </div>
             </a>
             {/*  */}
-            <a href='#' className="rounded bg-white space-y-4 shadow-2xl hover:border-zinc-300 hover:rounded-xl font-light shadow-gray-200 border border-zinc-100 p-4 py-8 cursor-pointer transition-all duration-200 ease-in-out">
+            <a href='#' className="bg-white space-y-4 shadow-2xl hover:border-zinc-300 rounded-xl font-light shadow-gray-200 border border-zinc-100 p-4 py-8 cursor-pointer transition-all duration-200 ease-in-out">
               <div className='flex items-center space-x-1.5'>
                 <div className='flex'><box-icon name='envelope' type='solid' ></box-icon></div>
                 <div className='text-xl font-bold'>Email</div>
@@ -40,7 +40,7 @@ function Offers() {
               </div>
             </a>
             {/*  */}
-            <a href='#' className="rounded bg-white space-y-4 shadow-2xl hover:border-zinc-300 hover:rounded-xl font-light shadow-gray-200 border border-zinc-100 p-4 py-8 cursor-pointer transition-all duration-200 ease-in-out">
+            <a href='#' className="bg-white space-y-4 shadow-2xl hover:border-zinc-300 rounded-xl font-light shadow-gray-200 border border-zinc-100 p-4 py-8 cursor-pointer transition-all duration-200 ease-in-out">
               <div className='flex items-center space-x-1.5'>
                 <div className='flex'><box-icon name='time' type='solid' ></box-icon></div>
                 <div className='text-xl font-bold'>Schedules</div>
@@ -52,7 +52,7 @@ function Offers() {
             </a>
             {/*  */}
           </div>
-          <div className="rounded bg-white space-y-2 shadow-2xl hover:border-zinc-300 hover:rounded-xl font-light shadow-gray-200 border border-zinc-100 p-4 py-8 transition-all duration-200 ease-in-out">
+          <div className="bg-white space-y-2 shadow-2xl hover:border-zinc-300 rounded-xl font-light shadow-gray-200 border border-zinc-100 p-4 py-8 transition-all duration-200 ease-in-out">
             <div className='font-semibold md:text-xl text-lg'>DiaaLand Newsletter</div>
             <div className='text-sm'>Subscribe to our Newsletter</div>
             <div className='py-1'></div>
@@ -62,19 +62,19 @@ function Offers() {
               <div className='py-1'></div>
               <div className='space-x-2 flex py-1 px-2 w-full'>
                 <input type='checkbox' name='job_offers' id='job_offers' className='' />
-                <label htmlFor='job_offers' className='text-xs cursor-pointer'>Job Offers</label>
+                <label htmlFor='job_offers' className='select-none text-xs cursor-pointer'>Job Offers</label>
               </div>
               <div className='space-x-2 flex py-1 px-2 w-full'>
                 <input type='checkbox' name='internships' id='internships' className='' />
-                <label htmlFor='internships' className='text-xs cursor-pointer'>Internships</label>
+                <label htmlFor='internships' className='select-none text-xs cursor-pointer'>Internships</label>
               </div>
               <div className='space-x-2 flex py-1 px-2 w-full'>
                 <input type='checkbox' name='job_market_news' id='job_market_news' className='' />
-                <label htmlFor='job_market_news' className='text-xs cursor-pointer'>Job Market news</label>
+                <label htmlFor='job_market_news' className='select-none text-xs cursor-pointer'>Job Market news</label>
               </div>
               <div className='space-x-2 flex py-1 px-2 w-full'>
                 <input required={true} type='checkbox' name='authorization' id='authorization' className='' />
-                <label htmlFor='authorization' className='text-sm cursor-pointer font-normal'>I authorize DiaaLand to send me emails</label>
+                <label htmlFor='authorization' className='select-none text-sm cursor-pointer font-normal'>I authorize DiaaLand to send me emails</label>
               </div>
               <div className='py-1'></div>
               <div>

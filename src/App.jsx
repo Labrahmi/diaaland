@@ -13,7 +13,7 @@ function App() {
       <Header />
       <main>
         <Hero />
-        <div className='py-16 '></div>
+        <div className=''></div>
         <TrustedBy />
         <div className='py-16 md:py-28'></div>
         <Services />

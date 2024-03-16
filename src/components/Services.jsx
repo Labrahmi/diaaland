@@ -8,7 +8,7 @@ function Services() {
         <div className='py-4 md:10'></div>
         <div className='grid grid-cols-1 md:grid-cols-3 md:gap-12 gap-8'>
           {/*  */}
-          <div className='flex flex-col items-start space-y-4 bg-white border border-zinc-200 rounded-md p-4 py-6 md:hover:border-zinc-400 hover:saturate-[1.3] saturate-[1] cursor-pointer transition-all duration-300 ease-in-out'>
+          <div className='bg-white space-y-4 shadow-2xl hover:border-zinc-300 rounded-xl font-light shadow-gray-200 border border-zinc-100 p-4 py-8 cursor-pointer transition-all duration-200 ease-in-out'>
             <div className='md:flex md:items-end md:h-52'><img src={"/hr_service.png"} className="select-none mix-blend-darken" alt="logo" /></div>
             <hr/>
             <div className='space-y-2'>
@@ -21,7 +21,7 @@ function Services() {
             </div>
           </div>
           {/*  */}
-          <div className='flex flex-col items-start space-y-4 bg-white border border-zinc-200 rounded-md p-4 py-6 md:hover:border-zinc-400 hover:saturate-[1.3] saturate-[1] cursor-pointer transition-all duration-300 ease-in-out'>
+          <div className='bg-white space-y-4 shadow-2xl hover:border-zinc-300 rounded-xl font-light shadow-gray-200 border border-zinc-100 p-4 py-8 cursor-pointer transition-all duration-200 ease-in-out'>
             <div className='md:flex md:items-end md:h-52'><img src={"/IT_coach.png"} className="select-none mix-blend-darken" alt="logo" /></div>
             <hr/>
             <div className='space-y-2'>
@@ -33,7 +33,7 @@ function Services() {
             </div>
           </div>
           {/*  */}
-          <div className='flex flex-col items-start space-y-4 bg-white border border-zinc-200 rounded-md p-4 py-6 md:hover:border-zinc-400 hover:saturate-[1.3] saturate-[1] cursor-pointer transition-all duration-300 ease-in-out'>
+          <div className='bg-white space-y-4 shadow-2xl hover:border-zinc-300 rounded-xl font-light shadow-gray-200 border border-zinc-100 p-4 py-8 cursor-pointer transition-all duration-200 ease-in-out'>
             <div className='md:flex md:items-end md:h-52'><img src={"/consultant_it.png"} className="select-none mix-blend-darken" alt="logo" /></div>
             <hr/>
             <div className='space-y-2'>
