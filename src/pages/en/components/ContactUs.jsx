@@ -4,7 +4,7 @@ function Offers() {
   return (
     <>
       <div className=''>
-        <h1 className='md:text-3xl text-xl font-bold text-zinc-900 text-center'>Contact Us</h1>
+        <h1 className='md:text-3xl text-lg font-bold text-zinc-900 text-center'>Contact Us</h1>
         <div className='py-4 md:py-8'></div>
         <div className="grid md:grid-cols-2 gap-4 md:gap-8">
           <div className="grid gap-4 md:gap-6 md:grid-cols-2">
@@ -12,7 +12,7 @@ function Offers() {
             <a href='#' className="bg-white space-y-4 shadow-2xl hover:border-zinc-300 rounded-xl font-light shadow-gray-200 border border-zinc-100 p-4 py-8 cursor-pointer transition-all duration-200 ease-in-out">
               <div className='flex items-center space-x-1.5'>
                 <div className='flex'><box-icon name='pin' type='solid' ></box-icon></div>
-                <div className='text-xl font-bold'>Address</div>
+                <div className='text-lg font-bold'>Address</div>
               </div>
               <div>
                 <div>Boulevard Hassan II, Bureaux Nakhil Etage 4 N35, Tetouan 93000</div>
@@ -22,7 +22,7 @@ function Offers() {
             <a href='#' className="bg-white space-y-4 shadow-2xl hover:border-zinc-300 rounded-xl font-light shadow-gray-200 border border-zinc-100 p-4 py-8 cursor-pointer transition-all duration-200 ease-in-out">
               <div className='flex items-center space-x-1.5'>
                 <div className='flex'><box-icon name='phone' type='solid' ></box-icon></div>
-                <div className='text-xl font-bold'>Phone number</div>
+                <div className='text-lg font-bold'>Phone number</div>
               </div>
               <div>
                 <div className='text-gray-500'>During working hours only</div>
@@ -33,7 +33,7 @@ function Offers() {
             <a href='#' className="bg-white space-y-4 shadow-2xl hover:border-zinc-300 rounded-xl font-light shadow-gray-200 border border-zinc-100 p-4 py-8 cursor-pointer transition-all duration-200 ease-in-out">
               <div className='flex items-center space-x-1.5'>
                 <div className='flex'><box-icon name='envelope' type='solid' ></box-icon></div>
-                <div className='text-xl font-bold'>Email</div>
+                <div className='text-lg font-bold'>Email</div>
               </div>
               <div>
                 <div className='font-semibold'>me@diaaland.com</div>
@@ -43,7 +43,7 @@ function Offers() {
             <a href='#' className="bg-white space-y-4 shadow-2xl hover:border-zinc-300 rounded-xl font-light shadow-gray-200 border border-zinc-100 p-4 py-8 cursor-pointer transition-all duration-200 ease-in-out">
               <div className='flex items-center space-x-1.5'>
                 <div className='flex'><box-icon name='time' type='solid' ></box-icon></div>
-                <div className='text-xl font-bold'>Schedules</div>
+                <div className='text-lg font-bold'>Schedules</div>
               </div>
               <div>
                 <div>Monday - Thursday</div>
@@ -53,7 +53,7 @@ function Offers() {
             {/*  */}
           </div>
           <div className="bg-white space-y-2 shadow-2xl hover:border-zinc-300 rounded-xl font-light shadow-gray-200 border border-zinc-100 p-4 py-8 transition-all duration-200 ease-in-out">
-            <div className='font-semibold md:text-xl text-lg'>DiaaLand Newsletter</div>
+            <div className='font-semibold md:text-lg text-lg'>DiaaLand Newsletter</div>
             <div className='text-sm'>Subscribe to our Newsletter</div>
             <div className='py-1'></div>
             <form className='space-y-2' action="#" method="POST">

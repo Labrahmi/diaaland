@@ -11,6 +11,7 @@ export default {
         rubik: ["Rubik", "sans-serif"],
         handjet: ["Handjet", "sans-serif"],
         palanquin: ["Palanquin Dark", "sans-serif"],
+        alexandria: ["Alexandria", "sans-serif"],
       },
     },
   },

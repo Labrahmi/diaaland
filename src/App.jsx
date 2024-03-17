@@ -1,30 +1,19 @@
-import Header from './components/Header'
-import Hero from './components/Hero'
-import TrustedBy from './components/TrustedBy'
-import Services from './components/Services'
-import Offers from './components/Offers'
-import ContactUs from './components/ContactUs'
-import Footer from './components/Footer'
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
+import En from './pages/en/page'
+import Fr from './pages/fr/page'
+import Ar from './pages/ar/page'
 
 function App() {
-
+  
   return (
-    <div className='p-6'>
-      <Header />
-      <main>
-        <Hero />
-        <div className=''></div>
-        <TrustedBy />
-        <div className='py-16 md:py-28'></div>
-        <Services />
-        <div className='py-16 md:py-28'></div>
-        <Offers />
-        <div className='py-16 md:py-28'></div>
-        <ContactUs />
-        <div className='py-6 md:py-10'></div>
-        <Footer />
-      </main>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/en" element={<En />} />
+        <Route path="/fr" element={<Fr />} />
+        <Route path="/ar" element={<Ar />} />
+        <Route path="/*" element={<Navigate to="/en" replace />} /> 
+      </Routes>
+    </BrowserRouter>
   )
 }
 

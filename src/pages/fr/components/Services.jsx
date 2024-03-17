@@ -4,7 +4,7 @@ function Services() {
   return (
     <>
       <div className=''>
-        <h1 className='md:text-3xl text-xl font-bold text-zinc-900 text-center'>Our Services</h1>
+        <h1 className='md:text-3xl text-xl font-bold text-zinc-900 text-center'>Nos Services</h1>
         <div className='py-4 md:10'></div>
         <div className='grid grid-cols-1 md:grid-cols-3 md:gap-12 gap-8'>
           {/*  */}
@@ -12,11 +12,11 @@ function Services() {
             <div className='md:flex md:items-end md:h-52'><img src={"/hr_service.png"} className="select-none mix-blend-darken" alt="logo" /></div>
             <hr/>
             <div className='space-y-2'>
-              <h2 className='text-base md:text-xl font-bold text-zinc-900'>Recruitment of IT profiles</h2>
+              <h2 className='text-base md:text-xl font-bold text-zinc-900'>Recrutement de profils IT</h2>
               <ul className='list-disc pl-4 space-y-1'>
-                <li className='text-zinc-700 md:text-sm text-xs'>Help companies properly write their resource requirements.</li>
-                <li className='text-zinc-700 md:text-sm text-xs'>Helping companies find the right developers.</li>
-                <li className='text-zinc-700 md:text-sm text-xs'>Help developers find offers suited to their skills.</li>
+                <li className='text-zinc-700 md:text-base text-xs'>Aider les sociétés à bien rédiger leurs besoins en ressources</li>
+                <li className='text-zinc-700 md:text-base text-xs'>Aider les sociétés à trouver les bons développeurs</li>
+                <li className='text-zinc-700 md:text-base text-xs'>Aider les développeur à trouver des offres adaptées à leurs compétences</li>
               </ul>
             </div>
           </div>
@@ -25,10 +25,10 @@ function Services() {
             <div className='md:flex md:items-end md:h-52'><img src={"/IT_coach.png"} className="select-none mix-blend-darken" alt="logo" /></div>
             <hr/>
             <div className='space-y-2'>
-              <h2 className='text-base md:text-xl font-bold text-zinc-900'>IT Training & Coaching</h2>
+              <h2 className='text-base md:text-xl font-bold text-zinc-900'>Formateur/Coach en IT</h2>
               <ul className='list-disc pl-4 space-y-1'>
-                <li className='text-zinc-700 md:text-sm text-xs'>Supporting young people to find the right training they need</li>
-                <li className='text-zinc-700 md:text-sm text-xs'>Provide monitoring and support during training.</li>
+                <li className='text-zinc-700 md:text-base text-xs'>Accompagner les jeunes pour trouver les bonnes formations dont ils ont besoin</li>
+                <li className='text-zinc-700 md:text-base text-xs'>Faire le suivi et l'accompagnement durant les formations</li>
               </ul>
             </div>
           </div>
@@ -37,11 +37,11 @@ function Services() {
             <div className='md:flex md:items-end md:h-52'><img src={"/consultant_it.png"} className="select-none mix-blend-darken" alt="logo" /></div>
             <hr/>
             <div className='space-y-2'>
-              <h2 className='text-base md:text-xl font-bold text-zinc-900'>IT technical consultant</h2>
+              <h2 className='text-base md:text-xl font-bold text-zinc-900'>Consultation technique IT</h2>
               <ul className='list-disc pl-4 space-y-1'>
-                <li className='text-zinc-700 md:text-sm text-xs'>Architecture of information systems.</li>
-                <li className='text-zinc-700 md:text-sm text-xs'>Management and monitoring of IT projects.</li>
-                <li className='text-zinc-700 md:text-sm text-xs'>Organization of IT events. </li>
+                <li className='text-zinc-700 md:text-base text-xs'>Architecture des systèmes d'informations</li>
+                <li className='text-zinc-700 md:text-base text-xs'>Gestion et suivi des projets IT</li>
+                <li className='text-zinc-700 md:text-base text-xs'>Oragnisation des évènements IT</li>
               </ul>
             </div>
           </div>
