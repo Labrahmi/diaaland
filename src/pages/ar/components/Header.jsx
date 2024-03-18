@@ -1,5 +1,6 @@
 import { Select } from 'antd';
 import { useRef } from 'react'
+import { useNavigate, Link } from 'react-router-dom';
 
 function Header() {
   // refs
@@ -10,20 +11,22 @@ function Header() {
     navbarDefault.current.classList.toggle('hidden');
   }
   
+  const navigate = useNavigate();
+  
   const languageHandlOnChange = (value) => {
-    window.location.href = `/${value}`;
+    navigate(`/${value}`);
+    document.dir = value === 'ar' ? 'rtl' : 'ltr';
   }
   
-  // classes
   const navLink = 'block py-2 px-3 text-zinc-600 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-zinc-900 md:p-0 md:text-[#222831]:bg-gray-500:text-white md:bg-transparent';
   
   return (
     <>
       <nav className="border-gray-200">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto relative md:static">
-          <a href="/ar" className="flex items-center space-x-3 rtl:space-x-reverse">
+          <Link to="/ar" className="flex items-center space-x-3 rtl:space-x-reverse">
           <span className="self-center md:text-2xl font-bold whitespace-nowrap font-palanquin hover:[text-shadow:_0_0_16px_rgb(246_92_91_/_16%)] transition-all duration-200 ease-in-out">Diaa<span className='text-orange-600'>Land</span></span>
-            </a>
+            </Link>
             <button onClick={navbarCollapseHandleOnClick} ref={navbarCollapseButtonRef} id='navbar-collapse-button' data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden focus:outline-none" aria-controls="navbar-default" aria-expanded="false">
                 <span className="sr-only">Open main menu</span>
                 <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">

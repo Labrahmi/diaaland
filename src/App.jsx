@@ -11,7 +11,7 @@ function App() {
         <Route path="/en" element={<En />} />
         <Route path="/fr" element={<Fr />} />
         <Route path="/ar" element={<Ar />} />
-        <Route path="/*" element={<Navigate to="/en" replace />} /> 
+        <Route path="/*"  element={<En />} />
       </Routes>
     </BrowserRouter>
   )
