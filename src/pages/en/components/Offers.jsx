@@ -49,9 +49,9 @@ function Offers() {
         </div>
         <div className='py-8 md:py-12'></div>
         <div className="flex justify-center w-full">
-          <a href='#' className='flex items-center justify-center space-x-2 text-sm w-full md:w-fit self-start bg-orange-400 text-white font-semibold p-2 px-4 rounded-md border border-orange-600 transition-all duration-200 ease-in-out'>
+          <a href='#' className='flex items-center justify-center space-x-2 text-sm w-full md:w-fit self-start bg-orange-400 text-black bg-transparent hover:bg-black hover:text-white font-semibold p-2 px-4 hover:px-5 rounded-md border border-black hover:shadow-md transition-all duration-200 ease-in-out fill-black hover:fill-white'>
             <div>Submit an Offer</div>
-            <div className="flex fill-white"><box-icon name='link-external' ></box-icon></div>
+            <div className="flex"><box-icon name='link-external' ></box-icon></div>
           </a>
         </div>
       </div>
