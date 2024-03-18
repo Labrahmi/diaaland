@@ -6,7 +6,6 @@ import Ar from './pages/ar/page';
 import favicon from '../public/favicon.ico';
 
 function App() {
-
   
   const componentDidMount = () => {
     const link = document.createElement('link');

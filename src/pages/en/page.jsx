@@ -12,7 +12,7 @@ function App() {
   
   return (
     <div className='p-4 py-8 font-noto'>
-      <div className='fixed left-0 top-0 p-5 w-full bg-white backdrop-blur-lg shadow z-10'><Header /></div>
+      <div className='fixed left-0 top-0 p-3 md:p-4 w-full bg-white backdrop-blur-lg shadow z-10'><Header /></div>
       <main>
         <Hero />
         <div className=''></div>
