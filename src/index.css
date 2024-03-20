@@ -16,7 +16,6 @@
 
 :root {
   font-family: "Rubik", sans-serif;
-  max-width: 1280px;
   margin: 0 auto;
   color: rgb(20, 20, 20);
   font-synthesis: none;
@@ -32,4 +31,16 @@
 .ant-select-selection-item, .ant-select-item-option-content {
     font-weight: 500!important;
     font-family: "Noto Kufi Arabic", sans-serif;
+}
+
+@keyframes wave {
+    0% {
+        transform: translate(0%, -8px);
+    }
+    50% {
+        transform: translate(0%, 0px);
+    }
+    100% {
+        transform: translate(0%, -8px);
+    }
 }

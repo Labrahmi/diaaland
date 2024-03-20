@@ -16,9 +16,9 @@ function App() {
   
   componentDidMount();
   
-  console.log = function() {};
-  console.error = function() {};
-  console.warn = function() {};
+  // console.log = function() {};
+  // console.error = function() {};
+  // console.warn = function() {};
   
   return (
     <BrowserRouter>

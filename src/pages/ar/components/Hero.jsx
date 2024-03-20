@@ -14,13 +14,55 @@ function Hero() {
             <h1 className='text-base md:text-3xl font-bold text-zinc-900'>🕵️‍♂️ هل تبحث عن مطورين؟</h1>
             <h2 className='text-sm md:text-xl text-zinc-900'>ماذا لو أكدنا لك أن غالبية اقتراحاتنا سترضيك؟</h2>
           </div>
-          <div className=''>
-            <a href='#' className='text-sm self-start text-black bg-transparent hover:bg-black hover:text-white hover:font-semibold hover:px-5 p-2 px-4 rounded-md border border-black hover:shadow-md transition-all duration-200 ease-in-out'>
-              اتصل بنا الآن
+          <div className="flex">
+            <a href='#' className='flex items-center p-2 px-3 w-fit text-sm self-start text-white bg-black fill-white bg-opacity-85 hover:bg-opacity-100 hover:shadow-2xl hover:shadow-gray-300 font-semibold rounded-md border border-black transition-all duration-300 ease-in-out'>
+              <div className=''>اتصل بنا الآن</div>
+              <div className="flex px-1"></div>
+              <div className="flex rotate-180"><box-icon name='chevron-right'></box-icon></div>
+            </a>
+            <div className="flex px-1"></div>
+            <a href='#' className='flex items-center p-2 px-3 w-fit text-sm self-start text-black bg-opacity-85 hover:bg-opacity-100 hover:shadow-2xl hover:shadow-gray-300 font-semibold rounded-md border border-black transition-all duration-300 ease-in-out'>
+              <div className="flex invisible w-0"><box-icon name='chevron-right'></box-icon></div>    
+              <div className=''>إكتشف عروض التوظيف</div>
+              <div className="flex invisible w-0"><box-icon name='chevron-right'></box-icon></div>
             </a>
           </div>
         </div>
-        <div className=''><img src={"/hr_hero.png"} className="w-[32rem] select-none" alt="logo" /></div>
+        
+        <div className='group relative saturate-0 hover:saturate-100 transition-all duration-500 ease-in-out'>
+          <img src={"/6203116.jpg"} className="w-[36rem] scale-[0.98] group-hover:scale-100 group-hover:opacity-60 opacity-20 select-none group-hover:saturate-150 group-hover:blur-none blur-sm transition-all duration-500 ease-in-out" alt="logo" />
+          {/*  */}
+          <div className="absolute hidden md:flex items-center p-4 px-6 bg-white cursor-default rounded-xl border top-32 left-0 animate-[wave_8s_linear_infinite_300ms] shadow-xl shadow-[#00000032]">
+            <div className='flex scale-125 fill-zinc-600'><box-icon name='check-circle'></box-icon></div>
+            <div className="flex px-1"></div>
+            <div className='space-y-1'>
+              <div className='text-zinc-600'>التوظيف في مجال التقنية</div>
+              <div className='flex'><div className='bg-zinc-100 bg-opacity-85 rounded w-[90%] p-1'></div></div>
+              <div className='flex'><div className='bg-zinc-100 bg-opacity-85 rounded w-[64%] p-1'></div></div>
+            </div>
+          </div>
+          {/*  */}
+          <div className="absolute hidden md:flex items-center p-4 px-6 bg-white cursor-default rounded-xl border top-64 left-52 animate-[wave_8s_linear_infinite_1300ms] shadow-xl shadow-[#00000032]">
+            <div className='flex scale-125 fill-zinc-600'><box-icon name='check-circle'></box-icon></div>
+            <div className="flex px-1"></div>
+            <div className='space-y-1'>
+              <div className='text-zinc-600'>التدريب والتوجيه في مجال التقنية</div>
+              <div className='flex'><div className='bg-zinc-100 bg-opacity-85 rounded w-[90%] p-1'></div></div>
+              <div className='flex'><div className='bg-zinc-100 bg-opacity-85 rounded w-[64%] p-1'></div></div>
+            </div>
+          </div>
+          {/*  */}
+          <div className="absolute hidden md:flex items-center p-4 px-6 bg-white cursor-default rounded-xl border top-96 left-32 animate-[wave_8s_linear_infinite_0ms] shadow-xl shadow-[#00000032]">
+            <div className='flex scale-125 fill-zinc-600'><box-icon name='check-circle'></box-icon></div>
+            <div className="flex px-1"></div>
+            <div className='space-y-1'>
+              <div className='text-zinc-600'>استشارة في مجال التقنية</div>
+              <div className='flex'><div className='bg-zinc-100 bg-opacity-85 rounded w-[90%] p-1'></div></div>
+              <div className='flex'><div className='bg-zinc-100 bg-opacity-85 rounded w-[64%] p-1'></div></div>
+            </div>
+          </div>
+          {/*  */}
+        </div>
       </div>
     </>
   )
