@@ -29,40 +29,49 @@ function Hero() {
           </div>
         </div>
         
-        <div className='group relative saturate-0 hover:saturate-100 transition-all duration-500 ease-in-out'>
-          <img src={"/6203116.jpg"} className="w-[36rem] scale-[0.98] group-hover:scale-100 group-hover:opacity-60 opacity-20 select-none group-hover:saturate-150 group-hover:blur-none blur-sm transition-all duration-500 ease-in-out" alt="logo" />
+        <div className='group/all relative saturate-0 hover:saturate-100 transition-all duration-500 ease-in-out animation-bounce'>
+          <img src={"/6203116.jpg"} className="w-[36rem] scale-[0.98] group-hover/all:scale-100 group-hover/all:opacity-80 opacity-15 select-none group/all-hover:saturate-150 group-hover/all:blur-none blur-sm transition-all duration-500 ease-in-out" alt="logo" />
           {/*  */}
-          <div className="absolute hidden md:flex items-center p-4 px-6 bg-white cursor-default rounded-xl border top-32 left-0 animate-[wave_8s_linear_infinite_300ms] shadow-xl shadow-[#00000032]">
-            <div className='flex scale-125 fill-zinc-600'><box-icon name='check-circle'></box-icon></div>
+          <a href='#' className="group/item absolute ring ring-gray-200 hover:ring-blue-100 hidden md:flex items-center p-4 px-6 bg-white rounded-xl border top-32 left-0 animate-[wave_8s_linear_infinite_300ms] shadow-xl shadow-[#00000032] transition-all duration-500 ease-in-out">
+            <div className='flex scale-125 fill-zinc-600 group-hover/item:fill-blue-500 transition-all duration-500 ease-in-out'><box-icon name='check-circle'></box-icon></div>
             <div className="flex px-1"></div>
-            <div className='space-y-1'>
-              <div className='text-zinc-600'>التوظيف في مجال التقنية</div>
-              <div className='flex'><div className='bg-zinc-100 bg-opacity-85 rounded w-[90%] p-1'></div></div>
-              <div className='flex'><div className='bg-zinc-100 bg-opacity-85 rounded w-[64%] p-1'></div></div>
+            <div className='space-y-2'>
+              <div className='text-zinc-600 group-hover/item:text-blue-500 transition-all duration-500 ease-in-out'>التوظيف في مجال التقنية</div>
+              <div className='space-y-1'>
+                <div className='flex'><div className='bg-zinc-100 group-hover/item:bg-blue-100 bg-opacity-85 rounded w-[90%] p-1 transition-all duration-500 ease-in-out'></div></div>
+                <div className='flex'><div className='bg-zinc-100 group-hover/item:bg-blue-100 bg-opacity-85 rounded w-[64%] p-1 transition-all duration-500 ease-in-out'></div></div>
+              </div>
             </div>
-          </div>
+          </a>
           {/*  */}
-          <div className="absolute hidden md:flex items-center p-4 px-6 bg-white cursor-default rounded-xl border top-64 left-52 animate-[wave_8s_linear_infinite_1300ms] shadow-xl shadow-[#00000032]">
-            <div className='flex scale-125 fill-zinc-600'><box-icon name='check-circle'></box-icon></div>
+          <a href='#' className="group/item absolute ring ring-gray-200 hover:ring-blue-100 hidden md:flex items-center p-4 px-6 bg-white rounded-xl border top-64 left-52 animate-[wave_8s_linear_infinite_300ms] shadow-xl shadow-[#00000032] transition-all duration-500 ease-in-out">
+            <div className='flex scale-125 fill-zinc-600 group-hover/item:fill-blue-500 transition-all duration-500 ease-in-out'><box-icon name='check-circle'></box-icon></div>
             <div className="flex px-1"></div>
-            <div className='space-y-1'>
-              <div className='text-zinc-600'>التدريب والتوجيه في مجال التقنية</div>
-              <div className='flex'><div className='bg-zinc-100 bg-opacity-85 rounded w-[90%] p-1'></div></div>
-              <div className='flex'><div className='bg-zinc-100 bg-opacity-85 rounded w-[64%] p-1'></div></div>
+            <div className='space-y-2'>
+              <div className='text-zinc-600 group-hover/item:text-blue-500 transition-all duration-500 ease-in-out'>التوظيف في مجال التقنية</div>
+              <div className='space-y-1'>
+                <div className='flex'><div className='bg-zinc-100 group-hover/item:bg-blue-100 bg-opacity-85 rounded w-[90%] p-1 transition-all duration-500 ease-in-out'></div></div>
+                <div className='flex'><div className='bg-zinc-100 group-hover/item:bg-blue-100 bg-opacity-85 rounded w-[64%] p-1 transition-all duration-500 ease-in-out'></div></div>
+              </div>
             </div>
-          </div>
+          </a>
           {/*  */}
-          <div className="absolute hidden md:flex items-center p-4 px-6 bg-white cursor-default rounded-xl border top-96 left-32 animate-[wave_8s_linear_infinite_0ms] shadow-xl shadow-[#00000032]">
-            <div className='flex scale-125 fill-zinc-600'><box-icon name='check-circle'></box-icon></div>
+          <a href='#' className="group/item absolute ring ring-gray-200 hover:ring-blue-100 hidden md:flex items-center p-4 px-6 bg-white rounded-xl border top-96 left-32 animate-[wave_8s_linear_infinite_300ms] shadow-xl shadow-[#00000032] transition-all duration-500 ease-in-out">
+            <div className='flex scale-125 fill-zinc-600 group-hover/item:fill-blue-500 transition-all duration-500 ease-in-out'><box-icon name='check-circle'></box-icon></div>
             <div className="flex px-1"></div>
-            <div className='space-y-1'>
-              <div className='text-zinc-600'>استشارة في مجال التقنية</div>
-              <div className='flex'><div className='bg-zinc-100 bg-opacity-85 rounded w-[90%] p-1'></div></div>
-              <div className='flex'><div className='bg-zinc-100 bg-opacity-85 rounded w-[64%] p-1'></div></div>
+            <div className='space-y-2'>
+              <div className='text-zinc-600 group-hover/item:text-blue-500 transition-all duration-500 ease-in-out'>التوظيف في مجال التقنية</div>
+              <div className='space-y-1'>
+                <div className='flex'><div className='bg-zinc-100 group-hover/item:bg-blue-100 bg-opacity-85 rounded w-[90%] p-1 transition-all duration-500 ease-in-out'></div></div>
+                <div className='flex'><div className='bg-zinc-100 group-hover/item:bg-blue-100 bg-opacity-85 rounded w-[64%] p-1 transition-all duration-500 ease-in-out'></div></div>
+              </div>
             </div>
-          </div>
-          {/*  */}
+          </a>
         </div>
+        
+        {/* <div className='text-zinc-600'>التدريب والتوجيه في مجال التقنية</div> */}
+        {/* <div className='text-zinc-600'>استشارة في مجال التقنية</div> */}
+        
       </div>
     </>
   )

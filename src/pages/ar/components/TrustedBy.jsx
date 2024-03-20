@@ -3,7 +3,7 @@ import Marquee from "react-fast-marquee";
 function TrustedBy() {
   // refs  
   return (
-    <>
+    <div dir='ltr' className=''>
       <div className='w-full text-center rounded-md text-black'>
         <h1 className='md:text-xl font-light p-4 py-14'>موثوق بها من قبل الشركات الناشئة</h1>
         <Marquee pauseOnHover={true} speed={30} className='space-x-4'>
@@ -33,7 +33,7 @@ function TrustedBy() {
           </div>
         </Marquee>
       </div>
-    </>
+    </div>
   )
 }
 

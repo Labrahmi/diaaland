@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import En from './pages/en/page';
 import Fr from './pages/fr/page';
 import Ar from './pages/ar/page';
-import favicon from '../public/favicon.ico';
+import favicon from '/favicon.ico';
 
 function App() {
   
