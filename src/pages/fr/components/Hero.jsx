@@ -14,13 +14,60 @@ function Hero() {
             <h1 className='text-base md:text-3xl font-bold text-zinc-900'>🕵️‍♂️ Vous cherchez des développeurs?</h1>
             <h2 className='text-sm md:text-xl text-zinc-900'>Et si on vous assure que la majorité de nos propositions vont vous satisfaire?</h2>
           </div>
-          <div className=''>
-            <a href='#' className='text-sm self-start text-black bg-transparent hover:bg-black hover:text-white hover:font-semibold hover:px-5 p-2 px-4 rounded-md border border-black hover:shadow-md transition-all duration-200 ease-in-out'>
-              Contactez-nous maintenant
+          <div className="flex">
+            <a href='#' className='flex items-center p-2 px-3 w-fit text-sm self-start text-white bg-black fill-white bg-opacity-85 hover:bg-opacity-100 hover:shadow-2xl hover:shadow-gray-300 font-semibold rounded-md border border-black transition-all duration-300 ease-in-out'>
+              <div className=''>Contactez-nous</div>
+              <div className="flex px-1"></div>
+              <div className="flex"><box-icon name='chevron-right'></box-icon></div>
+            </a>
+            <div className="flex px-1"></div>
+            <a href='#' className='flex items-center p-2 px-3 w-fit text-sm self-start text-black bg-opacity-85 hover:bg-opacity-100 hover:shadow-2xl hover:shadow-gray-300 font-semibold rounded-md border border-black transition-all duration-300 ease-in-out'>
+              <div className="flex invisible w-0"><box-icon name='chevron-right'></box-icon></div>    
+              <div className=''>Explorez nos offres</div>
+              <div className="flex invisible w-0"><box-icon name='chevron-right'></box-icon></div>
             </a>
           </div>
         </div>
-        <div className=''><img src={"/hr_hero.png"} className="w-[32rem] select-none" alt="logo" /></div>
+        
+        <div className='md:group/all relative transition-all duration-500 ease-in-out animation-bounce'>
+          <img src={"/6203116.jpg"} className="md:w-[32rem] w-[24rem] scale-[0.95] md:md:group-hover/all:scale-[1] md:md:group-hover/all:opacity-20 opacity-80 select-none md:md:group-hover/all:saturate-0 saturate-150 md:md:group-hover/all:blur-md blur-none transition-all duration-500 ease-in-out py-2 md:py-0" alt="logo" />
+          {/*  */}
+          <a href='#' className="md:group/item absolute ring ring-gray-200 hover:ring-blue-100 hidden md:flex items-center p-4 px-6 bg-white rounded-xl border top-32 left-0 animate-[wave_8s_linear_infinite_300ms] shadow-xl shadow-[#00000032] transition-all duration-500 ease-in-out">
+            <div className='flex scale-125 fill-zinc-600 md:group-hover/item:fill-blue-500 transition-all duration-500 ease-in-out'><box-icon name='check-circle'></box-icon></div>
+            <div className="flex px-1"></div>
+            <div className='space-y-2'>
+              <div className='text-zinc-600 md:group-hover/item:text-blue-500 transition-all duration-500 ease-in-out'>Recrutement de profils IT</div>
+              <div className='space-y-1'>
+                <div className='flex'><div className='bg-zinc-100 md:group-hover/item:bg-blue-100 bg-opacity-85 rounded w-[90%] p-1 transition-all duration-500 ease-in-out'></div></div>
+                <div className='flex'><div className='bg-zinc-100 md:group-hover/item:bg-blue-100 bg-opacity-85 rounded w-[64%] p-1 transition-all duration-500 ease-in-out'></div></div>
+              </div>
+            </div>
+          </a>
+          {/*  */}
+          <a href='#' className="md:group/item absolute ring ring-gray-200 hover:ring-blue-100 hidden md:flex items-center p-4 px-6 bg-white rounded-xl border top-64 left-52 animate-[wave_8s_linear_infinite_300ms] shadow-xl shadow-[#00000032] transition-all duration-500 ease-in-out">
+            <div className='flex scale-125 fill-zinc-600 md:group-hover/item:fill-blue-500 transition-all duration-500 ease-in-out'><box-icon name='check-circle'></box-icon></div>
+            <div className="flex px-1"></div>
+            <div className='space-y-2'>
+              <div className='text-zinc-600 md:group-hover/item:text-blue-500 transition-all duration-500 ease-in-out'>Formateur/Coach en IT</div>
+              <div className='space-y-1'>
+                <div className='flex'><div className='bg-zinc-100 md:group-hover/item:bg-blue-100 bg-opacity-85 rounded w-[90%] p-1 transition-all duration-500 ease-in-out'></div></div>
+                <div className='flex'><div className='bg-zinc-100 md:group-hover/item:bg-blue-100 bg-opacity-85 rounded w-[64%] p-1 transition-all duration-500 ease-in-out'></div></div>
+              </div>
+            </div>
+          </a>
+          {/*  */}
+          <a href='#' className="md:group/item absolute ring ring-gray-200 hover:ring-blue-100 hidden md:flex items-center p-4 px-6 bg-white rounded-xl border top-96 left-32 animate-[wave_8s_linear_infinite_300ms] shadow-xl shadow-[#00000032] transition-all duration-500 ease-in-out">
+            <div className='flex scale-125 fill-zinc-600 md:group-hover/item:fill-blue-500 transition-all duration-500 ease-in-out'><box-icon name='check-circle'></box-icon></div>
+            <div className="flex px-1"></div>
+            <div className='space-y-2'>
+              <div className='text-zinc-600 md:group-hover/item:text-blue-500 transition-all duration-500 ease-in-out'>Consultation technique IT</div>
+              <div className='space-y-1'>
+                <div className='flex'><div className='bg-zinc-100 md:group-hover/item:bg-blue-100 bg-opacity-85 rounded w-[90%] p-1 transition-all duration-500 ease-in-out'></div></div>
+                <div className='flex'><div className='bg-zinc-100 md:group-hover/item:bg-blue-100 bg-opacity-85 rounded w-[64%] p-1 transition-all duration-500 ease-in-out'></div></div>
+              </div>
+            </div>
+          </a>
+        </div>
       </div>
     </>
   )
