@@ -22,7 +22,7 @@ function Hero() {
             </a>
             <div className="flex px-1"></div>
             <a href='#' className='flex items-center p-2 px-3 w-fit text-sm self-start text-black bg-opacity-85 hover:bg-opacity-100 hover:shadow-2xl hover:shadow-gray-300 font-semibold rounded-md border border-black transition-all duration-300 ease-in-out'>
-              <div className="flex invisible w-0"><box-icon name='chevron-right'></box-icon></div>    
+              <div className="flex invisible w-0"><box-icon name='chevron-right'></box-icon></div>
               <div className=''>Explore our offers</div>
               <div className="flex invisible w-0"><box-icon name='chevron-right'></box-icon></div>
             </a>
